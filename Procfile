@@ -1,0 +1,1 @@
+web: gunicorn bnp_formatter.wsgi
