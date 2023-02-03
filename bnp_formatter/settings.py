@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["bnps1reccenformatter-production.up.railway.app"]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://bnps1reccenformatter-production.up.railway.app/*",
+]
 
 # Application definition
 
