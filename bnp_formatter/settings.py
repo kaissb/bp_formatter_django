@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-9)6o&55om=aokof4r_88!v$$06$@=o(2=_in^&21mh2x6xf6)%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bnps1reccenformatter-production.up.railway.app"]
 
 
 # Application definition
