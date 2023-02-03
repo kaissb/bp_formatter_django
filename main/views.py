@@ -22,7 +22,7 @@ def convert(input_instance):
     try:
         input_instance.status = "1"
         input_instance.save()
-        with open(input_instance.file.path, "r") as i:
+        with open(input_instance.file.path, "r", encoding="ISO-8859-1") as i:
             line = i.read()
         print("S1")
         length = len(line)
