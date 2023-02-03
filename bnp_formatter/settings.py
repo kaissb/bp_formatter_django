@@ -31,6 +31,8 @@ CSRF_TRUSTED_ORIGINS = [
     "https://bnps1reccenformatter-production.up.railway.app/*",
 ]
 
+# comment
+
 # Application definition
 
 INSTALLED_APPS = [
