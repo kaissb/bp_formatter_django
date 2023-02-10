@@ -5,7 +5,7 @@ STATUS = [
     ("1", "Processing"),
     ("2", "Done"),
 ]
-
+# test
 
 class Input(models.Model):
     file = models.FileField(verbose_name="Fichier brut", upload_to="inputs")
